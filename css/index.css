@@ -215,5 +215,182 @@ a.sfmenu-link:hover,a.sfmenu-link:active
 	    overflow: hidden;
 	    position: relative;
 	}
+	.news-title
+	{   
+		display: inline-block;
+		    height: 32px;
+		    line-height: 32px;
+		    font-size: 20px;
+		    font-weight: bold;
+		    color: #404143;
+		    padding-bottom: 16px;
+		    background: url(../img/xian6.png) no-repeat left bottom;
+		    text-decoration: none;
+	}
+	.head-bar
+	{
+		background: url(../img/more.png) no-repeat right center;
+	}
+	a img
+	{
+		   width: 100%;
+		    height: auto;
+		    max-height: 315px;
+           		    
+	}
+	.moonth
+	{
+		height: 22px;
+		    line-height: 22px;
+		    font-size: 14px;
+		    text-align: center;
+		    color: #fff;
+	}
+	.day
+	{
+		    height: 26px;
+		    line-height: 26px;
+		    font-size: 26px;
+		    text-align: center;
+		    margin: 0px auto;
+		    color: #fff;
+	}
+	.newstime
+		{
+			    width: 60px;
+			    height: 48px;
+			    padding: 3px 0;
+			    float: left;
+			    background: #878787;
+		}
+.newstitle a
+{
+	    color: #3b3b3b;
+	    font-size: 15px;
+	    height: auto;
+	    line-height: 24px;
+}
+.newstitle
+{
+	padding: 3px;
+	width: 75%;
+	float: right;
+}
+.img_title
+{
+	display: block;
+	    width: 100%;
+	    text-align: center;
+	    position: absolute;
+	    height: 40px;
+	    line-height: 40px;
+	    top: 35%;
+	    left: 0;
+	    font-size: 22px;
+	    color: #fff;
+	    font-weight: bold;
+}
+.img_summary
+{
+display: block;
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 40px;
+}
+.tp img
+{
+	opacity: 0.3;
+}
+a.tp :hover 
+{
+	opacity: 1;
+}
+a.tp:hover span
+{
+	display: none;
+}
+.fhdb
+{
+	margin: 0 0 0 0;
+	width: 100%;
 	
-		
+	background: #0a5cad;
+	border-bottom: 1px solid #3b7dbd;
+}
+
+.back
+{
+	   display: block;
+	    color: #9ab1d4;
+	    line-height: 30px;
+	    font-size: 16px;
+	    text-align: right;
+	    cursor: pointer;
+	    padding-right: 40px;
+	    background: url(../img/reutrn_top.png) right center no-repeat;
+		float: right;
+}
+.back:hover
+{
+	color: #9ab1d4;
+	text-decoration: none;
+}
+.footer
+{
+	margin: 0 0 0 0;
+	width: 100%;
+	min-height: 93px;
+	background: #0a5cad;
+}
+.xglj
+{
+	float: right;
+}
+.item1
+{
+	background: url(../img/weixin.png) no-repeat center 12px;
+}
+.item2
+{
+	background: url(../img/weibo.png) no-repeat center 12px;
+}
+.item3
+{
+	background: url(../img/shipin.png) no-repeat center 12px;
+}
+.item4
+{
+	background: url(../img/tupian.png) no-repeat center 12px;
+}
+.xglj-link
+{
+	    display: inline-block;
+	    margin: 0;
+	    height: 30px;
+	    line-height: 30px;
+	    color: #dee5f0;
+	    font-size: 14px;
+	    min-width: 55px;
+	    padding-top: 40px;
+	    position: relative;
+		text-align: center;
+}
+.foot-dh-item
+{
+	    display: inline-block;
+	    margin-left: 10px;
+	    height: 36px;
+	    line-height: 36px;
+	    color: #dee5f0;
+	    font-size: 14px;
+	    padding-left: 16px;
+	    background: url(../img/li_bg1.png) no-repeat left center;
+	    min-width: 82px;
+}
